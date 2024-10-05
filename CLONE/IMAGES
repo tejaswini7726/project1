@@ -1,0 +1,89 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NWTFLIX CLONE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <span><b>NETFLIX</b></span>
+            <div class="button">
+                <button>ENGLISH</button>
+                <button>SIGN IN</button>
+            </div>
+        </nav>
+        <div class="box"></div>
+
+        <div class="hero">
+            <span>Unlimited movies, TV shows and more</span>
+            <span>Watch anywhere. Cancel anytime.</span>
+            <span>Ready to watch? Enter your email to create or your membership.</span>
+            <div>
+                <input type="text" placeholder="Email Address">
+                <button>Get Started </button>
+            </div>
+        </div>
+    </div>
+    <div class="class1">
+        <div class="box1">
+            <span>Enjoy on your TV</span>
+            <span>Watch on smart TVs, PlayStation, Xbox,</span>
+            <span>Chromecast, Apple TV, Blu-ray players and more.</span>
+        </div>
+        <div class="image1">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="image">
+            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" autoplay loop muted></video>
+        </div>
+    </div>
+    <div class="class2">
+        <div class="image2">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="image">
+            <div class="img-box">
+                <div class="div">
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" alt="">
+                    <span>Stranger Things</span>
+                </div>
+                <div class="gif">
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="box2">
+            <span>Download your shows to watch offline</span>
+            <span>Watch on smart TVs, PlayStation, Xbox,</span>
+            <span>Chromecast, Apple TV, Blu-ray players and more.</span>
+        </div>
+    </div>
+    <div class="class3">
+        <div class="box3">
+            <span>Watch everywhere</span>
+            <span>Stream unlimited movies and TV shows on</span>
+            <span>your phone, tablet, laptop, and TV.</span>
+        </div>
+        <div class="image3">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png" alt="image">
+            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" autoplay loop muted></video>
+        </div>
+    </div>
+    <div class="class4">
+        <div class="image4">
+            <img src="https://occ-0-4857-2164.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d" alt="image">
+        <div class="box4">
+            <span>Create profiles for kids</span>
+            <span>Send children on adventures with their</span>
+            <span>favourite characters in a space made just for them—free with your membership.</span>
+        </div>
+    </div>
+    <div class="class5">
+        <span>Frequently Asked Questions</span>
+        <div class="buttons">
+            <button>What is Netflix</button>
+            <button>How much does Netflix cost</button>
+            <button>Where do i watch</button>
+            <button>How can i cancel</button>
+            <button>What can i watch on Netflix</button>
+            <button>Is Netflux good for kids</button>
+        </div>
+    </div>

@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.start {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/cacfadb7-c017-4318-85e4-7f46da1cae88/e43aa8b1-ea06-46a5-abe3-df13243e718d/IN-en-20240603-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.start nav {
+    display: flex;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.start nav span {
+    font-size: 40px;
+    position: relative;
+    z-index: 10;
+    color: red;
+}
+
+.button :first-child {
+    background-color: black;
+    border-color: rgb(241, 221, 221);
+    border-radius: 4px;
+    color: white;
+    position: relative;
+    z-index: 10;
+    padding: 5px 10px;
+    margin: 10px;
+    border: 1px solid rgb(241, 221, 221);
+}
+
+.button :nth-child(2) {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border-color: none;
+    padding: 5px 10px;
+    position: relative;
+    z-index: 10;
+    border: 1px solid red;
+}
+
+.start .box {
+    width: 100%;
+    height: calc(100%-100%);
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.head {
+    display: flex;
+    color: white;
+    height: calc(100%-100%);
+    position: relative;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    ;
+}
+
+.head> :nth-child(1) {
+    margin-top: 120px;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
+
+.head> :nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1rem;
+    text-align: center;
+}
+
+.head> :nth-child(3) {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.head button {
+    background-color: rgb(229, 9, 20);
+    height: 11vh;
+    width: 17vw;
+    font-size: 25px;
+    color: white;
+    margin-top: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(229, 9, 20, 0.6);
+}
+
+.head input {
+    background-color: rgba(23, 23, 23, 0.2);
+    height: 10vh;
+    width: 29vw;
+    border-color: rgb(143, 139, 139);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-weight: 900;
+    border: 1px solid rgba(199, 193, 193, 0.6);
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(46, 45, 45);
+    margin: 0;
+}
+
+.class1 {
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.image1 {
+    position: relative;
+}
+
+.image1 img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.image1 video {
+    position: absolute;
+    top: 50;
+    right: 0;
+    width: 555px;
+    overflow: hidden;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 :nth-child(1) {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.box1 :nth-child(2) {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 25px;
+
+}
+
+.box1 :nth-child(3) {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 25px;
+}
+
+.class2 {
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin: 7px;
+}
+
+.image2 img {
+    height: 70vh;
+    width: 555px;
+
+}
+
+.img-box {
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+    margin-left: 40px;
+    height: 20px;
+}
+
+.div {
+    display: flex;
+    flex-direction: row;
+}
+
+.div :nth-child(2) {
+    justify-content: center;
+    align-items: center;
+}
+
+.div img {
+    height: 50px;
+    width: 30px;
+}
+
+.gif img {
+    height: 30px;
+    width: 30px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 :nth-child(1) {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.box2 :nth-child(2) {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 25px;
+}
+
+.box2 :nth-child(3) {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 25px;
+}
+
+.class3 {
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    margin: 6px;
+}
+
+.class3 img {
+    height: 70vh;
+    width: 555px;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box3 :nth-child(1) {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.box3 :nth-child(2) {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 25px;
+}
+
+.box3 :nth-child(3) {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 25px;
+}
+
+.image3 {
+    position: relative;
+}
+
+.image3 img {
+    height: 70vh;
+    width: 555px;
+    padding-left: 50px;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+}
+
+@media  screen and (max-width :500px){
+    .class{
+        flex-wrap: wrap;
+    }
+    
+}
+.image3 video {
+    position: absolute;
+    top: 50;
+    right: 0;
+    width: 555px;
+    
+}
+
+.class4 {
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    margin: 6px;
+}
+
+.class4 img {
+    height: 70vh;
+    width: 555px;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box4> :nth-child(1) {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.box4> :nth-child(2) {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 25px;
+}
+
+.box4> :nth-child(3) {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 25px;
+}
+
+.class5 {
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin: 6px;
+}
+
+.class5> :nth-child(1) {
+    font-size: 50px;
+    margin: 20px;
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.buttons button {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    padding: 25px;
+    height: 15vh;
+    width: 75vw;
+    border: 1px solid rgb(45, 45, 45);
+    margin: 10px;
+    font-size: 25px;
+}
+
+.foot> :nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.foot button {
+    background-color: rgb(229, 9, 20);
+    height: 11vh;
+    width: 17vw;
+    font-size: 25px;
+    color: white;
+    margin-top: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(229, 9, 20, 0.6);
+}
+
+.foot input {
+    background-color: rgba(23, 23, 23, 0.2);
+    height: 10vh;
+    width: 29vw;
+    border-color: rgb(143, 139, 139);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-weight: 900;
+    border: 1px solid rgba(199, 193, 193, 0.6);
+    font-family: sans-serif;
+}
+
+.foot {
+    padding: 40px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.class6 {
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    margin: 6px;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 40px;
+}
+
+.link a {
+    color: white;
+    padding: 40px;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.row4 {
+    display: flex;
+    flex-direction: column;
+}
